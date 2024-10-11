@@ -1,0 +1,13 @@
+
+> pwd >>>>/Users/chadthompsonsmith/Desktop/dv_prep/linux_guide
+[13:45:25] chadthompsonsmith@Chads-MacBook-Air /Users/chadthompsonsmith/Desktop/dv_prep/linux_guide  
+
+Now navigate to the dv_prep directory using the following methods and not chaining together ../../dv_prep :
+
+Absolute Path: cd /Users/chadthompsonsmith/Desktop/dv_prep
+Home Directory: cd ~/Desktop/dv_prep
+Environment Variables: export DVPREP=/Users/chadthompsonsmith/Desktop/dv_prep and cd $DVPREP
+Symbolic Links: ln -s /Users/chadthompsonsmith/Desktop/dv_prep ~/dv_prep_link and cd ~/dv_prep_link
+Previous Directory: cd -
+Pushd and Popd: pushd /Users/chadthompsonsmith/Desktop/dv_prep and popd
+Fish Shell Shortcuts: cd /Users/chadthompsonsmith/Desktop/dv_prep
